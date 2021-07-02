@@ -2,6 +2,7 @@ const sidebar = require('./siderbar.js');
 module.exports = {
   "title": "博客",
   "description": "KNOWLEDGE PILL",
+  "base": '/myblog/',
   "dest": "docs",
   "head": [
     [
