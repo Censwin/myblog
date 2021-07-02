@@ -1,6 +1,6 @@
 const sidebar = require('./siderbar.js');
 module.exports = {
-  "title": "博客",
+  "title": "CENSWIN'S BLOG",
   "description": "KNOWLEDGE PILL",
   "base": '/myblog/',
   "dest": "docs",
@@ -71,7 +71,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "CENSWIN",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
+    // "record": "xxxx",
     "startYear": "2020"
   },
   "markdown": {

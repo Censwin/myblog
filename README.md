@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: KNOWLEDGE PILL
+heroText: CENSWIN'S BLOG
 tagline: 认真写点东西
 # heroImage: /hero.png
 # heroImageStyle: {
