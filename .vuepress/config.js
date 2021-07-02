@@ -1,6 +1,6 @@
 const sidebar = require('./siderbar.js');
 module.exports = {
-  "title": "CENSWIN'S BLOG",
+  "title": "知识胶囊",
   "description": "KNOWLEDGE PILL",
   "base": '/myblog/',
   "dest": "docs",

@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: CENSWIN'S BLOG
-tagline: 认真写点东西
+heroText: 认真写点东西
+tagline: 
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
