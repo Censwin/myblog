@@ -9,7 +9,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "/egg.png"
+        "href": "/pill.png"
       }
     ],
     [
@@ -65,7 +65,7 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
     ],
-    "logo": "/egg.png",
+    "logo": "/pill.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
