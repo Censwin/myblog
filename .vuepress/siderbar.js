@@ -33,6 +33,8 @@ module.exports = {
   // [PERFORM_PATH]: [createSideBarConfig('前端性能相关', PERFORM_PATH)],
   [BROWSER_PATH]: [
     createSideBarConfig('浏览器原理', BROWSER_PATH + '/browser-base'),
+    createSideBarConfig('页面循环系统', BROWSER_PATH + '/browser-eventloop'),
+    createSideBarConfig('浏览器页面及工具', BROWSER_PATH + '/browser-page'),
     // createSideBarConfig('浏览器安全', BROWSER_PATH + '/browser-security'),
   ]
 }
