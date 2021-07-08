@@ -20,21 +20,14 @@ const createSideBarConfig = (title, prefixPath, collapsable = true) => {
 module.exports = {
   [JAVASCRIPT_PATH]: [
     createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
-    // createSideBarConfig('JS-深入数组', JAVASCRIPT_PATH + '/js-array'),
-    // createSideBarConfig('JS-其它API原理', JAVASCRIPT_PATH + '/js-api'),
-    // createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/js-v8'),
-    // createSideBarConfig('JS-异步I/O及异步编程', JAVASCRIPT_PATH + '/js-async'),
+    createSideBarConfig('JS-异步编程', JAVASCRIPT_PATH + '/js-async'),
+    createSideBarConfig('精读-红宝书', JAVASCRIPT_PATH + '/red-book'),
   ],
   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
-  // [NET_PATH]: [
-  //   createSideBarConfig("TCP 协议", NET_PATH + '/tcp'),
-  //   createSideBarConfig("HTTP 协议", NET_PATH + '/http')
-  // ],
-  // [PERFORM_PATH]: [createSideBarConfig('前端性能相关', PERFORM_PATH)],
   [BROWSER_PATH]: [
     createSideBarConfig('浏览器原理', BROWSER_PATH + '/browser-base'),
     createSideBarConfig('页面循环系统', BROWSER_PATH + '/browser-eventloop'),
     createSideBarConfig('浏览器页面及工具', BROWSER_PATH + '/browser-page'),
     // createSideBarConfig('浏览器安全', BROWSER_PATH + '/browser-security'),
-  ]
+  ],
 }
