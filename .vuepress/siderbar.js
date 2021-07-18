@@ -20,7 +20,7 @@ const createSideBarConfig = (title, prefixPath, collapsable = true) => {
 module.exports = {
   [JAVASCRIPT_PATH]: [
     // createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
-    // createSideBarConfig('JS-异步编程', JAVASCRIPT_PATH + '/js-async'),
+    createSideBarConfig('JS-异步编程', JAVASCRIPT_PATH + '/js-async'),
     createSideBarConfig('红宝书', JAVASCRIPT_PATH + '/red-book'),
   ],
   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
