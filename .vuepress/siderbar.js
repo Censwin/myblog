@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const JAVASCRIPT_PATH = '/blogs/javascript'
 const CSS_PATH = '/blogs/css'
+const REACT_PATH = '/blogs/react'
 // const NET_PATH = '/blogs/net'
 // const PERFORM_PATH = '/blogs/perform'
 // const INTERVIEW_PATH = '/blogs/interview'
@@ -30,4 +31,5 @@ module.exports = {
     createSideBarConfig('浏览器页面及工具', BROWSER_PATH + '/browser-page'),
     // createSideBarConfig('浏览器安全', BROWSER_PATH + '/browser-security'),
   ],
+  [REACT_PATH]: [createSideBarConfig('React', REACT_PATH)],
 }
