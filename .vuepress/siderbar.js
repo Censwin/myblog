@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('fs')
+const path = require('path')
 const JAVASCRIPT_PATH = '/blogs/javascript'
 const CSS_PATH = '/blogs/css'
 const REACT_PATH = '/blogs/react'
@@ -8,14 +8,15 @@ const REACT_PATH = '/blogs/react'
 // const INTERVIEW_PATH = '/blogs/interview'
 const BROWSER_PATH = '/blogs/browser'
 const getFile = (prefixPath) => {
-  return fs.readdirSync(path.join(process.cwd(), prefixPath))
-           .map(item => `${prefixPath}/${item.replace('.md', '')}`)
+  return fs
+    .readdirSync(path.join(process.cwd(), prefixPath))
+    .map((item) => `${prefixPath}/${item.replace('.md', '')}`)
 }
 const createSideBarConfig = (title, prefixPath, collapsable = true) => {
-  return  {
+  return {
     title,
     collapsable,
-    children: getFile(prefixPath)
+    children: getFile(prefixPath),
   }
 }
 module.exports = {
@@ -31,5 +32,8 @@ module.exports = {
     createSideBarConfig('浏览器页面及工具', BROWSER_PATH + '/browser-page'),
     // createSideBarConfig('浏览器安全', BROWSER_PATH + '/browser-security'),
   ],
-  [REACT_PATH]: [createSideBarConfig('React', REACT_PATH)],
+  [REACT_PATH]: [
+    createSideBarConfig('React', REACT_PATH + '/react'),
+    createSideBarConfig('Redux', REACT_PATH + '/redux'),
+  ],
 }
