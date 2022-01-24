@@ -7,6 +7,7 @@ const REACT_PATH = '/blogs/react'
 // const PERFORM_PATH = '/blogs/perform'
 // const INTERVIEW_PATH = '/blogs/interview'
 const BROWSER_PATH = '/blogs/browser'
+const TRANSLATE_PATH = '/blogs/translation'
 const getFile = (prefixPath) => {
   return fs
     .readdirSync(path.join(process.cwd(), prefixPath))
@@ -36,4 +37,5 @@ module.exports = {
     createSideBarConfig('React', REACT_PATH + '/react'),
     createSideBarConfig('Redux', REACT_PATH + '/redux'),
   ],
+  [TRANSLATE_PATH]: [createSideBarConfig('Documentation', TRANSLATE_PATH )]
 }
